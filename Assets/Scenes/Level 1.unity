@@ -120,6 +120,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!198 &693968807 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3630034072256538970, guid: e260a2fc02c9773479b2a9416752d1d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1503908331}
+  m_PrefabAsset: {fileID: 0}
 --- !u!108 &705507994 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 8311531937603852059, guid: 04c940c1bbbc53844a824eb5d4234f39,
@@ -291,6 +297,14 @@ PrefabInstance:
       propertyPath: mainThrust
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 1624509619, guid: e260a2fc02c9773479b2a9416752d1d2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624509619, guid: e260a2fc02c9773479b2a9416752d1d2, type: 3}
+      propertyPath: mainEngineParticles
+      value: 
+      objectReference: {fileID: 693968807}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e260a2fc02c9773479b2a9416752d1d2, type: 3}
 --- !u!1001 &1696738839
