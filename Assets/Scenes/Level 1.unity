@@ -138,6 +138,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 437475758685564599, guid: 397ad940f8118b748b50420d64bc089f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6896470937658403544, guid: 397ad940f8118b748b50420d64bc089f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -300,6 +305,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8737567717151614926, guid: 15d303a474bb9b3418cefabd46fc96cf,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2370307026667250593, guid: 15d303a474bb9b3418cefabd46fc96cf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -388,6 +398,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Obstacle Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8058478423389250848, guid: 328fea6925f512546b9ad0ca31b5616d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3923305200427147599, guid: 328fea6925f512546b9ad0ca31b5616d,
         type: 3}
@@ -821,22 +836,22 @@ PrefabInstance:
     - target: {fileID: 8311531937603852059, guid: 04c940c1bbbc53844a824eb5d4234f39,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 3.6e-43
+      value: 4.53e-43
       objectReference: {fileID: 0}
     - target: {fileID: 8311531937603852059, guid: 04c940c1bbbc53844a824eb5d4234f39,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 0
+      value: -1.3321604e+34
       objectReference: {fileID: 0}
     - target: {fileID: 8311531937603852059, guid: 04c940c1bbbc53844a824eb5d4234f39,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 0
+      value: -2.3352592e+27
       objectReference: {fileID: 0}
     - target: {fileID: 8311531937603852059, guid: 04c940c1bbbc53844a824eb5d4234f39,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 0
+      value: 1.2160091e-20
       objectReference: {fileID: 0}
     - target: {fileID: 8311531937603852058, guid: 04c940c1bbbc53844a824eb5d4234f39,
         type: 3}
