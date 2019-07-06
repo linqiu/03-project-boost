@@ -18,6 +18,7 @@ public class Rocket : MonoBehaviour
 
     Rigidbody rigidBody;
     AudioSource rocketAudio;
+    Light rocketReflection;
 
     enum State { Alive, Dying, Transcending };
     State state = State.Alive;
@@ -26,6 +27,7 @@ public class Rocket : MonoBehaviour
     {
         rigidBody = GetComponent<Rigidbody>();
         rocketAudio = GetComponent<AudioSource>();
+        rocketReflection = GetComponent<Light>();
     }
 
     // Update is called once per frame
@@ -64,6 +66,7 @@ public class Rocket : MonoBehaviour
         rocketAudio.Stop();
         rocketAudio.PlayOneShot(death);
         mainEngineParticles.Stop();
+        rocketReflection.intensity = 0;
         deathParticles.Play();
         Invoke("LoadFirstScene", loadGameDelay);
     }
@@ -112,6 +115,7 @@ public class Rocket : MonoBehaviour
         {
             rocketAudio.Stop();
             mainEngineParticles.Stop();
+            rocketReflection.intensity = 0;
         }
     }
 
@@ -123,5 +127,8 @@ public class Rocket : MonoBehaviour
             rocketAudio.PlayOneShot(mainEngine);
         }
         mainEngineParticles.Play();
-    }
+        float newIntensity = 5 + Random.Range(-3f, 5f);
+        rocketReflection.intensity = newIntensity;
+
+     }
 }
